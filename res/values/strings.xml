@@ -5,4 +5,8 @@
     <string name="serverActivate">Server updates Activate:</string>
     <string name="serverName">Server name:</string>
     <string name="serverTime">Time between server updates(in minutes):</string>
+    <string name="save">Save</string>
+    <string name="menuMap">Map</string>
+    <string name="menuConfig">Config</string>
+    <string name="menuAbout">About us...</string>
 </resources>

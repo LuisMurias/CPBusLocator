@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
-  android:layout_width="fill_parent"
-  android:layout_height="fill_parent" android:orientation="vertical">
+  android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" android:padding="15dp">
     <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textViewTimeGPS" android:text="@string/timeGPS"></TextView>
-    <EditText android:text="EditText" android:id="@+id/editTextTimeGPS" android:layout_width="fill_parent" android:layout_height="75dp"></EditText>
+    <EditText android:text="EditText" android:id="@+id/editTextTimeGPS" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
     <TextView android:layout_height="wrap_content" android:id="@+id/textViewServerActivate" android:layout_width="wrap_content" android:text="@string/serverActivate"></TextView>
-    <ToggleButton android:text="ToggleButton" android:id="@+id/toggleButtonServerActivate" android:layout_width="fill_parent" android:layout_height="wrap_content"></ToggleButton>
+    <ToggleButton android:text="ToggleButton" android:id="@+id/toggleButtonServerActivate" android:layout_height="wrap_content" android:layout_width="wrap_content"></ToggleButton>
     <TextView android:layout_height="wrap_content" android:id="@+id/textViewServerName" android:layout_width="wrap_content" android:text="@string/serverName"></TextView>
-    <EditText android:text="EditText" android:id="@+id/editTextServerName" android:layout_width="fill_parent" android:layout_height="75dp"></EditText>
+    <EditText android:text="EditText" android:id="@+id/editTextServerName" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
     <TextView android:layout_height="wrap_content" android:id="@+id/textViewTimeServer" android:layout_width="wrap_content" android:text="@string/serverTime"></TextView>
-    <EditText android:text="EditText" android:id="@+id/editTextTimeServer" android:layout_width="fill_parent" android:layout_height="75dp"></EditText>
+    <EditText android:text="EditText" android:id="@+id/editTextTimeServer" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+    <Button android:layout_height="wrap_content" android:id="@+id/buttonSave" android:layout_width="wrap_content" android:text="@string/save"></Button>
 </LinearLayout>
