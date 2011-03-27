@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/itemMap" android:title="@string/menuMap"></item>
-    <item android:id="@+id/itemConfig" android:title="@string/menuConfig"></item>
-    <item android:id="@+id/itemAbout" android:title="@string/menuAbout"></item>
+    <item android:id="@+id/itemMap" android:title="@string/menuMap" android:alphabeticShortcut="m" android:numericShortcut="7"></item>
+    <item android:id="@+id/itemConfig" android:title="@string/menuConfig" android:alphabeticShortcut="c" android:numericShortcut="8"></item>
+    <item android:id="@+id/itemAbout" android:title="@string/menuAbout" android:alphabeticShortcut="a" android:numericShortcut="9"></item>
 </menu>
