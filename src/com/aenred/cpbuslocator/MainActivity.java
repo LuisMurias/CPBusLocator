@@ -1,6 +1,7 @@
 package com.aenred.cpbuslocator;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -29,12 +30,18 @@ public class MainActivity extends Activity {
 		switch (item.getItemId()){
 			case(R.id.itemMap):
 				Log.d("Map", "Map menu button press.");
+				Intent intentMain = new Intent(this, MainActivity.class);
+				startActivity(intentMain);
 			break;
 			case(R.id.itemConfig):
 				Log.d("Config", "Config menu button press.");
+				Intent intentConfig = new Intent(this, ConfigActivity.class);
+				startActivity(intentConfig);
 			break;
 			case(R.id.itemAbout):
 				Log.d("About", "About menu button press.");
+				Intent intentAbout = new Intent(this, AboutActivity.class);
+				startActivity(intentAbout);
 			break;
 		}
 		return super.onOptionsItemSelected(item);

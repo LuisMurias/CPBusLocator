@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CPBusLocator</string>
-    <string name="timeGPS">Time between GPS updates(in minutes):</string>
+    <string name="app_name_config">CPBusLocator - Config</string><string name="app_name_about">CPBusLocator - About</string><string name="timeGPS">Time between GPS updates(in minutes):</string>
     <string name="serverActivate">Server updates Activate:</string>
     <string name="serverName">Server name:</string>
     <string name="serverTime">Time between server updates(in minutes):</string>
@@ -9,4 +9,6 @@
     <string name="menuMap">Map</string>
     <string name="menuConfig">Config</string>
     <string name="menuAbout">About us...</string>
+    
+    
 </resources>

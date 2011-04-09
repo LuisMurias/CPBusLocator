@@ -40,13 +40,15 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f050000;
-        public static final int menuAbout=0x7f050008;
-        public static final int menuConfig=0x7f050007;
-        public static final int menuMap=0x7f050006;
-        public static final int save=0x7f050005;
-        public static final int serverActivate=0x7f050002;
-        public static final int serverName=0x7f050003;
-        public static final int serverTime=0x7f050004;
-        public static final int timeGPS=0x7f050001;
+        public static final int app_name_about=0x7f050002;
+        public static final int app_name_config=0x7f050001;
+        public static final int menuAbout=0x7f05000a;
+        public static final int menuConfig=0x7f050009;
+        public static final int menuMap=0x7f050008;
+        public static final int save=0x7f050007;
+        public static final int serverActivate=0x7f050004;
+        public static final int serverName=0x7f050005;
+        public static final int serverTime=0x7f050006;
+        public static final int timeGPS=0x7f050003;
     }
 }
